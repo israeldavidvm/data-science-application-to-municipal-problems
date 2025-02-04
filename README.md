@@ -9,6 +9,9 @@
   - [Features to implement / Caracteristicas a implementar](#features-to-implement--caracteristicas-a-implementar)
   - [Planning, Requirements Engineering and risk management / Planeacion, Ingenieria de Requerimientos y gestion del riesgo](#planning-requirements-engineering-and-risk-management--planeacion-ingenieria-de-requerimientos-y-gestion-del-riesgo)
   - [Uso:](#uso)
+    - [Instala python](#instala-python)
+    - [Instala pip3](#instala-pip3)
+      - [Crear entorno virtual y usar](#crear-entorno-virtual-y-usar)
     - [Instalar dependencias:](#instalar-dependencias)
     - [Ejecutar el proyecto archivo proyectoIDVM.py](#ejecutar-el-proyecto-archivo-proyectoidvmpy)
     - [Estructura de la app:](#estructura-de-la-app)
@@ -89,13 +92,20 @@ sudo apt install python3
 ### Instala pip3
 sudo apt update
 sudo apt install python3-pip
+
+#### Crear entorno virtual y usar
+python3 -m venv venv
+
+
 ### Instalar dependencias:
 pip3 install dash
 pip3 install pandas
-
+pip install openpyxl
 ### Ejecutar el proyecto archivo proyectoIDVM.py
 dentro de la carpeta donde esta el proyecto invocamos al interprete de python pasandole el archivo del proyecto
 python3 proyectoIDVM.py lo cual deberia de generar una salida como la que se muestra en pantalla
+
+![alt text](image-7.png)
 
 Notese que el warning nace de que se esta usando flask que proporciona un servidor local que no tiene las proteciones para ser usado en produccion para hacer funcionar la app para llevar la app a produccion deberiamos usar un servidor dedicado a estos fines.
 

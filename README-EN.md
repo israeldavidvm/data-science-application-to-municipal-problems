@@ -9,6 +9,9 @@
   - [features to implement / characteristics to be implemented](#features-to-implement--characteristics-to-be-implemented)
   - [Planning, Requirements Engineering and Risk Management / Planning, Requirements Engineering and Risk Management](#planning-requirements-engineering-and-risk-management--planning-requirements-engineering-and-risk-management)
   - [Use:](#use)
+    - [Install Python](#install-python)
+    - [Install PIP3](#install-pip3)
+      - [Create virtual environment and use](#create-virtual-environment-and-use)
     - [Install units:](#install-units)
     - [Execute the project projectidvm.py](#execute-the-project-projectidvmpy)
     - [Structure of the app:](#structure-of-the-app)
@@ -36,31 +39,29 @@
 <!-Don's Edit This Section, Instead Re-Run Doctor to Update->
 ** Table of content ***generated with [doctoc] (https://github.com/thlorenz/doctoc)*
 
--[Calculator-with-ooc] (#Calculator-With-Oc)
--[Calculator-With-Oc] (#Calculator-With-Oc-Orry)
+-[Data-Science-Application-To-Municipal-Problems] (#Data-Science-Application-To-Municipal-Problems)
+-[Data-science-application-to-Municipal-Problems] (#Data-Science-Aplication-To-Municipal-Problems-1)
 - [License] (#license)
 -[CHARACTERISTICS WHAT OFFER YOU?] (#CHARACTERISTICS-%C2%BFQU%C3%A9-TE-DEFREE)
 -[features to implement / characteristics to be implemented] (#features-to-implement-caracteristic-to-implement)
 -[Planning, Requirements Engineering and Risk Management / Planning, Requirements Engineering and Risk Management] (#Planning-Requirements-Engineering-And-Risk-Management-Planning-Ingenieria-De-Requerlations-Y-Gestion-Del-Riesgo )
+- [Use:] (#use)
+- [Install dependencies:] (#Install-dependencies)
+-[Execute the ProjectIdvm.py Archive
+-[APP structure:] (#-de-la -app)
+-[We need to analyze what are the types of problems that have been made more difficult to solve in each state.] (#We need-analize-how-the-type-of-probe-that-you-we-have- fact-m%C3%A1S-DIF%C3%ADCIL-DE-SOLUTION-EN-CADA-STATE)
+-[Perform an analysis on the main problems of the provinces: Caracas, Bolívar and Portuguesa.] (#Perform-un-an%C3%a1Lisis-sur-the-the-principales-proprolem%c3%a1tica-de-las-provincias- Caracas-Bol%C3%ADVAR-Y-Portuguesa)
+-[Image of the search engine without specifying a province (performs a small summary of all)] (#Image-of-Buscador-Sin-Specify-A-Provinciarealiza-Un-Peque%C3%B1o-Resume-of-All)
+-[Image of the search engine specifying Bolívar as province] (#Image-Del-Buscador-Specifying-A-Bol%C3%Advar-As-Province)
+-[Analyze the “resolved” reports and what average time elapsed since its creation, broken down by subcategory.] (#Analyze-the-reparators-and-and-time-time-appransa-transcurred-from-for-momento- De-Creaci%C3%B3n-Desglosado-Por-Subcategor%C3%ADA)
+-[Interactive histogram of resolution times:] (#Histogram-interactive-of-the-times-de-resolution%c3%b3n)
 -[Software Design / Software Design] (#Software-Design-Dise%C3%B1O-De-Software)
 - [Structural Perspective] (#perspective-structural)
 -[Logic view of software architecture] (#-logic-of-the-architecture-del-software)
 -[behavior perspective] (#perspective-of-behavior)
--[Stages of the Machine Learning project:] (#Stages-Del-Project-De-Machine-Learning)
--[Definition of the problem:] (#definition%c3%b3n-of-problem)
--[Identification of information needs:] (#Identification%C3%B3n-de-Las-Necesities-Informaci%C3%B3n)
--[Obtaining and preparation of data:] (#obtanci%c3%b3n-y-preparation%C3%b3n-datos)
--[Input and output data processing:] (#Processing-of-Data-Entrada-Y-Salida)
--[Construction of the model:] (#Construcci%C3%B3n-Del-Model)
--[Compile the model:] (#compile-el-model)
--[Train the model:] (#train-al-model)
--[Generation of predictions:] (#generation%C3%B3n-de-Predictions)
--[Store the model and training registration:] (#Store-the-Model-and-Registration-Decreasing)
--[Example inputs and outputs] (#inputs-and-salides-of-example)
 -[Technical Decions / Technical Decisions] (#Technical-Decisions-Decisions-Tecnic)
 - [Make to Donation. Your Contribution Will Make A Difference.] (#Make-A-Donation-Your-Contribution-Will-Make-A-Difference)
 -[Find me on:] (#Find-me-on)
--[Technologies used / used technologies] (#Technologies-ined-Tecnologias-Usadas)
 
 <!-End doctoc generated touch please keep comment here to allow Auto Update->
 
@@ -119,22 +120,26 @@ Request access link to authorized personnel
 
 ## Use:
 
-### Install python
+### Install Python
+SUDO APT UPDATE
+Sudo Apt Install Python3
+### Install PIP3
+SUDO APT UPDATE
+Sudo APT Install Python3-Pip
 
-sudo apt update
-sudo apt install python3
+#### Create virtual environment and use
+python3 -m venv
 
-### Install pip3
-sudo apt update
-sudo apt install python3-pip
 
 ### Install units:
 Pip3 Install Dash
 PIP3 Install Pandas
-
+Pip Install OpenPyxl
 ### Execute the project projectidvm.py
 Within the folder where the project we invoke the interpreter of Python passing the project file
 Python3 Proyectoidvm.py which should generate an output like the one shown on screen
+
+! [alt text] (image-7.png)
 
 Note that the warning is born that Flash is being used that provides a local server that does not have the protections to be used in production to operate the app to take the app to production we should use a server dedicated to these purposes.
 

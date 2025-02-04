@@ -68,7 +68,7 @@ def generateAnalysis2(data, province):
     return analysis
 
 
-df = pd.read_excel('proyecto/reports_TEST.xlsx')
+df = pd.read_excel('./reports_TEST.xlsx')
 provinces=sorted(createListWithoutDuplicates(df['Provincia']))
 categories=sorted(createListWithoutDuplicates(df['Categoria']))
 subCategories=sorted(createListWithoutDuplicates(df['Subcategoria']))
