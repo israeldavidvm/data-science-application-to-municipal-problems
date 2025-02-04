@@ -1,0 +1,116 @@
+.banner--modern {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    overflow: hidden;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+  }
+  @media screen and (min-width: 640px) {
+    .banner--modern {
+      align-items: center;
+    }
+  }
+  .banner--modern::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    position: absolute;
+    z-index: 1;
+  }
+  .banner--modern__title {
+    text-align: left;
+    font-size: 2.5em;
+    line-height: 1.14;
+    letter-spacing: 0.9px;
+    margin: 0.5em 0;
+  }
+  @media screen and (min-width: 768px) {
+    .banner--modern__title {
+      font-size: 3.25em;
+    }
+  }
+  @media screen and (min-width: 520px) {
+    .banner--modern__title {
+      margin: 1em 0;
+    }
+  }
+  .banner--modern__background {
+    display: block;
+    width: 100%;
+    max-height: 100%;
+  }
+  .banner--modern__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    padding: 1em;
+  }
+  .banner--modern__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    z-index: 1;
+    color: hsl(0deg, 0%, 100%);
+  }
+  @media screen and (min-width: 520px) {
+    .banner--modern__text {
+      display: block;
+    }
+  }
+  @media screen and (min-width: 640px) {
+    .banner--modern__text {
+      display: block;
+      width: 70%;
+    }
+  }
+  .banner--modern__link {
+    display: inline-block;
+    padding: 0.65rem 2rem;
+    color: white;
+    box-shadow: inset 0px 0 0px 2px;
+    border-radius: 0 20px 0 20px;
+    margin: 0.5em 1em;
+  }
+  .banner--modern__link:hover {
+    transform: scale(1.15);
+  }
+  .banner--modern__figure {
+    width: 25%;
+    display: flex;
+    z-index: 1;
+    position: relative;
+  }
+  .banner--modern__figure::before {
+    content: "";
+    background: linear-gradient(90deg, hsl(200deg, 100%, 60%), hsl(200deg, 100%, 40%));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -10;
+    border-radius: 1em;
+    transform: translate(-10%, -10%);
+  }
+  .banner--modern__figure img {
+    border-radius: 1em;
+  }
+
+
+  .publication--short {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #container-table{
+      width: 100%;
+      overflow: auto;
+      box-sizing: border-box;
+      width: 90vw;
+      overflow: auto;
+  }
