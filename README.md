@@ -96,6 +96,8 @@ sudo apt install python3-pip
 #### Crear entorno virtual y usar
 python3 -m venv venv
 
+### Ejecuta
+source venv/bin/activate
 
 ### Instalar dependencias:
 pip3 install dash
@@ -103,7 +105,10 @@ pip3 install pandas
 pip install openpyxl
 ### Ejecutar el proyecto archivo proyectoIDVM.py
 dentro de la carpeta donde esta el proyecto invocamos al interprete de python pasandole el archivo del proyecto
-python3 proyectoIDVM.py lo cual deberia de generar una salida como la que se muestra en pantalla
+
+python3 proyectoIDVM.py
+
+lo cual deberia de generar una salida como la que se muestra en pantalla
 
 ![alt text](image-7.png)
 
